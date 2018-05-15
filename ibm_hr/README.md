@@ -1,6 +1,7 @@
 # MLE 技術試験（モデリング編）
 
 ## はじめに
+これはscoutyの機械学習エンジニアの採用時のスキルチェックテストです。所要時間は約50分ですが、制限時間はありません。
 scoutyの機械学習エンジニアに求められる素質は、次の6つです。
 
 1. 実現したいアプリケーションに対して、様々なモデルを考案し、それを素早くプロトタイピングをする。「本当にこのアルゴリズムで行けるのか？」をすぐ試す。
@@ -39,6 +40,7 @@ print(df_train.dtypes)
 | RelationshipSatisfaction | Low | Medium | High | Very High | - |
 | WorkLifeBalance | Bad | Good | Better | Best | - |
 
+
 ## 問題
 従業員の TotalWorkingYears（勤務年数）以外の情報から、 TotalWorkingYears を予測するアルゴリズムを作ってください。
 与えられたテストデータに対して平均二乗誤差を計算するテスト関数を作ってください。
@@ -55,4 +57,3 @@ print(df_train.dtypes)
 ## 備考
 ライブラリやグーグル検索は、自由に使って構いません。
 実装に用いる言語やツールは問いませんが、特にこだわりの無い場合は Jupyter Notebook を使って解析を行なうことを推奨しています。
-
